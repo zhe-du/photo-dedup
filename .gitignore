@@ -6,3 +6,6 @@ node_modules/
 *.log
 out/
 tmp/
+
+# 本地附带的 czkawka 二进制，不入库
+czkawka/
