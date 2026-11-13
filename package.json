@@ -1,0 +1,40 @@
+{
+  "name": "photo-dedup",
+  "version": "2.0.0",
+  "description": "零依赖照片合并去重工具：按内容哈希跨目录去重合并，可选按 EXIF 拍摄时间重命名",
+  "bin": {
+    "photo-dedup": "photo-dedup.js"
+  },
+  "scripts": {
+    "test": "node test.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "files": [
+    "photo-dedup.js",
+    "photo-dedup.cmd",
+    "README.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "dedup",
+    "duplicate-files",
+    "duplicate-photos",
+    "photo",
+    "image",
+    "exif",
+    "cli",
+    "zero-dependency"
+  ],
+  "license": "MIT",
+  "author": "zhe-du",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhe-du/photo-dedup.git"
+  },
+  "bugs": {
+    "url": "https://github.com/zhe-du/photo-dedup/issues"
+  },
+  "homepage": "https://github.com/zhe-du/photo-dedup#readme"
+}

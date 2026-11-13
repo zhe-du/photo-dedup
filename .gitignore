@@ -1,0 +1,8 @@
+# 运行生成的去重报告
+dedup-report-*.json
+
+# 测试/临时输出
+node_modules/
+*.log
+out/
+tmp/
